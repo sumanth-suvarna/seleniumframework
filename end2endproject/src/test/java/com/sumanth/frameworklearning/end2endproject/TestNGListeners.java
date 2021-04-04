@@ -49,7 +49,8 @@ public class TestNGListeners extends Base implements ITestListener {
 		try {
 			//test.addScreenCaptureFromPath(takeScreenshot(driver, result.getMethod().getMethodName()));
 			//thread.get().addScreenCaptureFromPath(takeScreenshot(driver, result.getMethod().getMethodName()));
-			String screenshotName = "." + takeScreenshot(driver, result.getMethod().getMethodName());
+			//String screenshotName = "." + takeScreenshot(driver, result.getMethod().getMethodName());
+			String screenshotName = takeScreenshot(driver, result.getMethod().getMethodName());
 			thread.get().addScreenCaptureFromPath(screenshotName);
 		} catch (IOException e) {
 			e.printStackTrace();

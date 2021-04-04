@@ -115,7 +115,8 @@ public class Base {
 		
 		File screenst = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//String destpath = System.getProperty("user.dir") + "\\screenshots\\"+name+".png";
-		String destpath = "./screenshots/"+name+".png";
+		//String destpath = "./screenshots/"+name+".png";
+		String destpath = "http://localhost:8080/job/End2EndProject-RegressionTest/ws/end2endproject/screenshots/"+name+".png";
 		File destFile = new File(destpath);
 		
 		log.debug("Copying screenshot to "+destpath);
