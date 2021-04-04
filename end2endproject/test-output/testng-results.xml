@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23629" started-at="2021-04-04T16:29:54 IST" finished-at="2021-04-04T16:30:18 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="LaunchURLTest.launchURL()[pri:0, instance:com.sumanth.frameworklearning.end2endproject.launchpage.LaunchURLTest@66f57048]" name="launchURL" class="com.sumanth.frameworklearning.end2endproject.launchpage.LaunchURLTest"/>
+        <method signature="VerifyEmailIdOptionalTextTest.verifyemailoptionaltag()[pri:0, instance:com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyEmailIdOptionalTextTest@506ae4d4]" name="verifyemailoptionaltag" class="com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyEmailIdOptionalTextTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="LaunchPage" duration-ms="13050" started-at="2021-04-04T16:29:54 IST" finished-at="2021-04-04T16:30:07 IST">
+      <class name="com.sumanth.frameworklearning.end2endproject.launchpage.LaunchURLTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.sumanth.frameworklearning.end2endproject.launchpage.LaunchURLTest@66f57048]" name="initialize" is-config="true" duration-ms="3751" started-at="2021-04-04T16:29:54 IST" finished-at="2021-04-04T16:29:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:com.sumanth.frameworklearning.end2endproject.launchpage.LaunchURLTest@66f57048]" name="launchURL" duration-ms="8228" started-at="2021-04-04T16:29:58 IST" finished-at="2021-04-04T16:30:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sumanth.frameworklearning.end2endproject.launchpage.LaunchURLTest@66f57048]" name="teardown" is-config="true" duration-ms="931" started-at="2021-04-04T16:30:06 IST" finished-at="2021-04-04T16:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sumanth.frameworklearning.end2endproject.launchpage.LaunchURLTest -->
+    </test> <!-- LaunchPage -->
+    <test name="NewUserRegistration" duration-ms="9935" started-at="2021-04-04T16:30:08 IST" finished-at="2021-04-04T16:30:18 IST">
+      <class name="com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyEmailIdOptionalTextTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyEmailIdOptionalTextTest@506ae4d4]" name="initialize" is-config="true" duration-ms="1916" started-at="2021-04-04T16:30:08 IST" finished-at="2021-04-04T16:30:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="launchpage()[pri:0, instance:com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyEmailIdOptionalTextTest@506ae4d4]" name="launchpage" is-config="true" duration-ms="4252" started-at="2021-04-04T16:30:10 IST" finished-at="2021-04-04T16:30:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchpage -->
+        <test-method status="PASS" signature="verifyemailoptionaltag()[pri:0, instance:com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyEmailIdOptionalTextTest@506ae4d4]" name="verifyemailoptionaltag" duration-ms="2556" started-at="2021-04-04T16:30:14 IST" finished-at="2021-04-04T16:30:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyemailoptionaltag -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyEmailIdOptionalTextTest@506ae4d4]" name="teardown" is-config="true" duration-ms="1202" started-at="2021-04-04T16:30:17 IST" finished-at="2021-04-04T16:30:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyEmailIdOptionalTextTest -->
+    </test> <!-- NewUserRegistration -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="com.sumanth.frameworklearning.end2endproject.TestNGListeners"></listener>
+	</listeners>
+	<test name="LaunchPage">
+		<classes>
+			<class
+				name="com.sumanth.frameworklearning.end2endproject.launchpage.LaunchURLTest" />
+		</classes>
+	</test>
+	<test name="NewUserRegistration">
+		<classes>
+			<class
+				name="com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyIndiaMobileCodeTest" />
+			<class
+				name="com.sumanth.frameworklearning.end2endproject.newuserregistration.VerifyEmailIdOptionalTextTest" />
+			<class
+				name="com.sumanth.frameworklearning.end2endproject.newuserregistration.UserRegisTest" />
+		</classes>
+	</test>
+</suite>

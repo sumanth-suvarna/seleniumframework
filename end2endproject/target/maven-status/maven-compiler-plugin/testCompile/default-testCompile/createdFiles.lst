@@ -1,0 +1,8 @@
+com\sumanth\frameworklearning\end2endproject\newuserregistration\VerifyIndiaMobileCodeTest.class
+com\sumanth\frameworklearning\end2endproject\launchpage\LaunchURLTest.class
+cucumberstepdefinition\LaunchWebPage.class
+cucumberstepdefinition\NewUserRegistration.class
+cucumbertestrunner\TestRunner.class
+com\sumanth\frameworklearning\end2endproject\newuserregistration\UserRegisTest.class
+com\sumanth\frameworklearning\end2endproject\TestNGListeners.class
+com\sumanth\frameworklearning\end2endproject\newuserregistration\VerifyEmailIdOptionalTextTest.class

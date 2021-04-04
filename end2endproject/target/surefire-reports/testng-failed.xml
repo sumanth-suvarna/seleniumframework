@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.sumanth.frameworklearning.end2endproject.TestNGListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="NewUserRegistration(failed)">
+    <classes>
+      <class name="com.sumanth.frameworklearning.end2endproject.newuserregistration.UserRegisTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchpage"/>
+          <include name="existingUserRegistration"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.sumanth.frameworklearning.end2endproject.newuserregistration.UserRegisTest -->
+    </classes>
+  </test> <!-- NewUserRegistration(failed) -->
+</suite> <!-- Failed suite [Suite] -->
