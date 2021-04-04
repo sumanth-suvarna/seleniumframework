@@ -7,7 +7,7 @@ public class InitializeExtentReport {
 	public static ExtentReports initializeReport() {
 		String path = System.getProperty("user.dir") + "\\reports\\index.html";
 		ExtentSparkReporter reporter =  new ExtentSparkReporter(path);
-		reporter.config().setDocumentTitle("Release Testing");
+		reporter.config().setDocumentTitle("Automation Test Report");
 		reporter.config().setReportName("Amazon Test Reports");
 		ExtentReports reports =  new ExtentReports();
 		reports.attachReporter(reporter);
