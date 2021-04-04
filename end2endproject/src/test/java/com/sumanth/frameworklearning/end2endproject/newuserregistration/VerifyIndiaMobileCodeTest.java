@@ -20,7 +20,7 @@ import com.sumanth.frameworklearning.end2endproject.pageobjects.NewUserRegis;
 import com.sumanth.frameworklearning.end2endproject.wrappermethods.WrapperMethods;
 
 public class VerifyIndiaMobileCodeTest extends Base {
-	private WebDriver driver = null;
+	public WebDriver driver = null;
 	private Logger log = LogManager.getLogger();
 	private Properties propfile = null;
 
